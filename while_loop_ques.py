@@ -27,6 +27,17 @@
 i=123
 sum=0
 while(i>0):
-    sum=sum+(i%10)+(i%10)
+    sum=sum+(i%10)*(i%10)
+    i=i//10
+print(sum) 
+
+
+
+#sum of cube of a given number
+
+i=123
+sum=0
+while(i>0):
+    sum=sum+(i%10)*(i%10)*(i%10)
     i=i//10
 print(sum)    
