@@ -72,7 +72,7 @@ print(df.duplicated().sum())  # Count duplicates
 
 # If we want to calculate actual values then we use value_counts
 print(df['Survived'].value_counts())              
-# # categorical data
+#  categorical data
 sns.countplot(x=df['Survived'])
 plt.title("Count of Survived Passengers")
 plt.show()
